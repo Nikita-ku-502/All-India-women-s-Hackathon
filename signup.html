@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" style="background-color: rgb(39,38,70)">
+
+<head>
+    <title>Login</title>
+    <style>
+        * {
+            padding: 10px;
+        }
+
+        .h1 {
+            text-align: center;
+            color: white;
+            font-size: 3em;
+        }
+
+        .p {
+            text-align: center;
+            color: cadetblue;
+        }
+
+        table {
+            padding: 10px;
+            align: center;
+            /* border: 2px solid rgb(184, 223, 255); */
+            color: rgb(39,38,70);
+            border: 3px solid rgb(0, 0, 0);
+            /* background-color: rgb(227, 255, 254); */
+            background-color: rgb(252, 252, 252);
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="h1"><b>SIGNUP NOW!</b></div>
+    <div class="p">Get a personalised experience!</div><br>
+    <form action="" method="POST">
+        <table align="center">
+            <tr>
+                <td>Enter First Name </td>
+                <td><input type="text" placeholder="First Name" name="fname"></td>
+            </tr>
+            <tr>
+                <td>Enter Second Name</td>
+                <td><input type="text" placeholder="Second Name" name="sname"></td>
+            </tr>
+            <tr>
+                <td>Enter Phone number</td>
+                <td><input type="number" placeholder="10 Digits" name="phone"></td>
+            </tr>
+            <tr>
+                <td>Enter Email ID</td>
+                <td><input type="email" placeholder="xyz@gmail.com" name="mail"></td>
+            </tr>
+            <tr>
+                <td>Enter Password</td>
+                <td><input type="password" placeholder="*******" name="pass"></td>
+            </tr>
+            <tr>
+                <td><br></td>
+            </tr>
+
+            <tr align="center">
+                <td><input type="submit" onclick="f3()" name="submit"></td>
+                <td><input type="reset" onclick="f4()"></td>
+            </tr>
+        </table>
+    </form>
+    
+</body>
+
+<script>
+    function f3() {
+        confirm("Are you sure you want to Submit?");
+    }
+
+    function f4() {
+        confirm("Are you sure you want to reset?");
+    }
+</script>
+
+</html>

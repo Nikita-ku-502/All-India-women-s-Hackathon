@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>InfoFusion Webpage</title>
+  <link rel="stylesheet" href="hackathon.css">  
+</head>
+<body>
+  <nav class="navbar">
+    <div class="navbar-left">
+      <div class="logo">
+        <span class="InfoFusion">InfoFusion</span>
+      </div>
+    </div>
+    <div class="navbar-right">
+      <ul>
+        <li><a href="#">Tools</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Blog</a></li>
+        <li class="nav-item log-in-btn">
+          <a href="newlogin.html">Log In</a>
+        </li>
+        <li><a href="signup.html" class="sign-Up-btn">Sign up for Free</a></li>
+      </ul>
+    </div>
+    <style>
+      .navbar {
+        background-color: #34495e;
+      }
+    </style>
+  </nav>
+  <div class="main-body">
+    <h1 class="InfoFusion-title" id="InfoFusion-title">InfoFusion</h1>
+    <button class="get-started-btn"><a href="h3.html ">Get Started</a></button>
+  </div>
+  
+  <script>
+    var InfoFusion = document.getElementById("InfoFusion-title");
+    var letters = InfoFusion.innerHTML.split("");
+    var i = 0;
+    var interval = setInterval(function() {
+      InfoFusion.innerHTML = letters.slice(0, i + 1).join("");
+      i++;
+      if (i === letters.length) {
+        clearInterval(interval);
+      }
+    }, 100);
+  </script>
+  
+  <nav class="navbar" id="bottom">
+    <div class="navbar-left">
+      <div class="logo">
+        <span class="InfoFusion-text">Follow us on</span>
+      </div>
+    </div>
+    <div class="navbar-right">
+      <ul>
+        <li><a href="https://github.com/" class="a1">Github</a></li>
+        <li><a href="https://twitter.com/i/flow/login" class="a1">Twitter</a></li>
+        <li><a href="https://in.linkedin.com/?original_referer=https%3A%2F%2Fwww.google.com%2F" class="a1">Linkedin</a></li>
+        <li><a href="#" class="a1">Thread</a></li>
+      </ul>
+    </div>
+  </nav>
+
+</body>
+
+</html>
+</body>
+</html>

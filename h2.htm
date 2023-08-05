@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login Page</title>
+  <style>
+    /* CSS styles for the login page */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #a4ebf8;
+    }
+    .container {
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+      text-align: center;
+    }
+    label {
+      display: block;
+      margin-bottom: 10px;
+    }
+    input[type="text"],
+    input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    input[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      background-color: #022441;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Login</h1>
+    <form>
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" placeholder="Enter your username" required pattern="[a-zA-Z0-9._%+-]+@gmail\.comquot; title="Please enter a valid Gmail address">
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" placeholder="Enter your password" required pattern="^(?=.*[0-9]).+quot; title="Password must contain at least one number">
+
+      <input type="submit" value="Login">
+    </form>
+  </div>
+</body>
+</html>

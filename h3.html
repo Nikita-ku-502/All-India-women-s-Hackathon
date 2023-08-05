@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <title>Productivity App</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+      background-image: url(https://miro.medium.com/v2/resize:fit:1358/1*myckcTy0hJ3Im4doXNGfYA.png);
+      background-size: cover;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .header {
+      text-align: center;
+      color: #fff;
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 20px 0;
+    }
+
+    .header h1 {
+      font-size: 28px;
+      font-weight: bolder;
+      cursor: pointer;
+      margin: 0;
+    }
+
+    .content {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-top: 20px;
+      background-color: rgba(255, 255, 255, 0.8);
+      border-radius: 10px;
+      padding: 20px
+    }
+
+    .card {
+      background-color: navy;
+      color: #fff;
+      border-radius: 5px;
+      padding: 20px;
+      margin-bottom: 20px;
+      flex: 0 0 calc(33.33% - 20px);
+      text-align: center;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .card h2 {
+      font-size: 18px;
+    }
+
+    .card p {
+      margin-bottom: 10px;
+    }
+
+    .card a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .card a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Productivity App</h1>
+    </div>
+    <div class="content">
+      <div class="card">
+        <h2><a href="http://localhost:8501">□ Product Requirements</a></h2>
+        <p>Generate requirements for your project or product.</p> 
+      </div>
+      <div class="card">
+        <h2><a href=" http://localhost:8505">□ User Stories</a></h2>
+        <p>Generate user stories for your project or product.</p>
+      </div>
+      <div class="card">
+        <h2><a href=" http://localhost:8504">□ Roadmap</a></h2>
+        <p>Create roadmaps for your product or project.</p> 
+      </div>
+      <div class="card">
+        <h2><a href="http://localhost:8502">□ Product Vision Statement</a></h2>
+        <p>Create a product vision statement that inspires.</p>
+      </div>
+      <div class="card">
+        <h2><a href="http://localhost:8501">□ Kick-off Meeting Agenda</a></h2>
+        <p>Instantly create a meeting agenda for your project.</p>
+      </div>
+      <div class="card">
+        <h2><a href="http://localhost:8506">□ Project Report Status</a></h2>
+        <p>Summarize project updates into digestible bullet points.</p> 
+      </div>
+    </div>
+  </div>
+</body>
+</html>

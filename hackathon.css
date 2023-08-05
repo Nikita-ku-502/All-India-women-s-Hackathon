@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #b3e5fc;
+  background-image: url(https://www.shutterstock.com/image-vector/banner-hackathon-design-sprintlike-event-260nw-1418226719.jpg);
+  background-position: fixed;
+  background-size: 24em;
+}
+
+.navbar {
+  background-color: rgba(1, 1, 32, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  color: white;
+}
+
+.navbar .navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  background: linear-gradient(90deg, white 100%, rgb(2, 2, 48) 70%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.navbar-right ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-right ul li {
+  margin-left: 20px;
+}
+
+.navbar-right ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar-right ul li .sign-in-btn {
+  background-color: rgb(71, 170, 228);
+  color: rgb(6, 2, 43);
+  padding: 8px 16px;
+  border-radius: 5px;
+}
+
+.main-body {
+  background-color: rgb(133, 193, 233);
+  color: rgb(2, 2, 51);
+  text-align: center;
+  padding: 100px 0;
+  height: 200px;
+  background-image: url(https://miro.medium.com/v2/resize:fit:1358/1*Nz8GuPoKqi2SyJNM1ZNn5g.png);
+ 
+
+}
+
+.main-body .InfoFusion-title {
+  font-size: 48px;
+  width: fit-content;
+  margin: 0 auto;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  color: white;
+}
+
+
+.get-started-btn {
+  padding: 12px 24px;
+  font-size: 28px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 230px;
+}
+.get-started-btn a{
+  text-decoration: none;
+  color: #05042e;
+  font-weight: bold;
+  
+}
+
+.a1:hover {
+  color: green;
+}
+
+.a:link {
+  color: rgb(12, 45, 107);
+}
+
+#bottom .navbar-left{
+  margin-left: 100px;
+}
+
+#bottom .navbar-right ul li{
+  margin-right: 50px;
+  font-size: larger;
+}
+
+
